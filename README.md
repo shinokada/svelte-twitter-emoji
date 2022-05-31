@@ -1,4 +1,3 @@
-
 # Svelte-Twemoji
 
 [![npm version](https://badgen.net/npm/v/svelte-twemoji)](https://www.npmjs.com/package/svelte-twemoji)
@@ -102,7 +101,7 @@ You can pass other attibutes as well.
 <script>
 	import { A1F1e61f1e8 } from 'svelte-twemoji';
 	import { onMount } from 'svelte';
-  	const props = {
+	const props = {
 		size: '50',
 		color: '#ff0000'
 	};
