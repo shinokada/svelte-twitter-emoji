@@ -1,5 +1,5 @@
 {
-  "name": "svelte-twemoji",
+  "name": "svelte-twitter-emoji",
   "version": "0.1.1",
   "description": "Twitter emoji icon components for Svelte",
   "author": {
@@ -7,8 +7,8 @@
     "email": "connect@codewithshin.com",
     "url": "https://blog.codewithshin.com"
   },
-  "bugs": "https://github.com/shinokada/svelte-twemoji/issues",
-  "homepage": "https://github.com/shinokada/svelte-twemoji",
+  "bugs": "https://github.com/shinokada/svelte-twitter-emoji/issues",
+  "homepage": "https://github.com/shinokada/svelte-twitter-emoji",
   "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -44,6 +44,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinokada/svelte-twemoji.git"
+    "url": "https://github.com/shinokada/svelte-twitter-emoji.git"
   }
 }
