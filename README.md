@@ -6,18 +6,18 @@
 3600+ Twitter emoji SVG color icon components for Svelte. svelte-twitter-emoji support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji1.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji2.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji3.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji4.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji5.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji6.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji7.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji8.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji9.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji10.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji11.png" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji12.png" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji1.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji2.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji3.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji4.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji5.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji6.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji7.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji8.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji9.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji10.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji11.webp" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji12.webp" />
 </p>
 
 ## Icon name list
