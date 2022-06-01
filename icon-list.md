@@ -1,5 +1,9 @@
 # Icon names
 
+All files has A before a number. For example `1F004` becomes `A1F004`.
+
+Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emoji-data/table.htm)
+
 - A1F004
 - A1F0cf
 - A1F170

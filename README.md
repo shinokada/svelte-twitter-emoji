@@ -22,6 +22,10 @@
 
 ## Icon name list
 
+All files has A before a number. For example `1F004` becomes `A1F004`.
+
+Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emoji-data/table.htm)
+
 [Icon list](https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md)
 
 ## Installation
