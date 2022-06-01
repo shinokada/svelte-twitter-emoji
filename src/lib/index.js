@@ -1975,8 +1975,7 @@ export { default as A1F605 } from './A1F605.svelte';
 export { default as A1F606 } from './A1F606.svelte';
 export { default as A1F607 } from './A1F607.svelte';
 export { default as A1F608 } from './A1F608.svelte';
-export { default as  Winking_face
-} from './😉.svelte';
+export { default as Winking_face } from './😉.svelte';
 export { default as Smiling_face_with_smiling_eyes } from './😊.svelte';
 export { default as A1F60b } from './A1F60b.svelte';
 export { default as A1F60c } from './A1F60c.svelte';

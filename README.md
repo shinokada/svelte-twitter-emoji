@@ -20,6 +20,10 @@
 <img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji12.webp" />
 </p>
 
+## Original source
+
+[twitter/twemoji](https://github.com/twitter/twemoji)
+
 ## Icon name list
 
 All files has A before a number. For example `1F004` becomes `A1F004`.
