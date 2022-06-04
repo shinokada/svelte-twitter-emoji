@@ -20,7 +20,7 @@
 <img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji12.webp" />
 </p>
 
-## Original source
+## Attribution
 
 Original SVG souce by [twitter/twemoji](https://github.com/twitter/twemoji)/[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
