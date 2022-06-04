@@ -22,7 +22,7 @@
 
 ## Original source
 
-[twitter/twemoji](https://github.com/twitter/twemoji)
+Original SVG souce by [twitter/twemoji](https://github.com/twitter/twemoji)/[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Icon name list
 
