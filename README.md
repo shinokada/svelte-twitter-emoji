@@ -1,7 +1,15 @@
-# svelte-twitter-emoji
+<h1 align="center">Svelte-Twitter-Emoji</h1>
 
-[![npm version](https://badgen.net/npm/v/svelte-twitter-emoji)](https://www.npmjs.com/package/svelte-twitter-emoji)
-[![license](https://badgen.net/npm/license/svelte-twitter-emoji)](https://github.com/shinokada/svelte-twitter-emoji/blob/main/LICENSE)
+<p align="center">
+<a href="https://shinokada.github.io/svelte-twitter-emoji/">Svelte-Twitter-Emoji</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-twitter-emoji" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-twitter-emoji" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-twitter-emoji" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-twitter-emoji" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-twitter-emoji.svg" alt="npm"></a>
+</p>
 
 3600+ Twitter emoji SVG color icon components for Svelte. svelte-twitter-emoji support major CSS frameworks using the `class` props.
 
@@ -20,9 +28,11 @@
 <img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji12.webp" />
 </p>
 
-## Attribution
+## Installation
 
-Original SVG souce by [twitter/twemoji](https://github.com/twitter/twemoji)-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+```sh
+npm i -D svelte-twitter-emoji
+```
 
 ## Icon name list
 
@@ -31,12 +41,6 @@ All files has A before a number. For example `1F004` becomes `A1F004`.
 Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emoji-data/table.htm)
 
 [Icon list](https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md)
-
-## Installation
-
-```sh
-npm i -D svelte-twitter-emoji
-```
 
 ## Usages
 
@@ -139,6 +143,10 @@ Use `import * as Icon from 'svelte-twitter-emoji`.
 <Icon.A1F1e61f1e8 class="px-2" />
 <Icon.A1F1f21f1f9 class="mr-2" />
 ```
+
+## Attribution
+
+Original SVG souce by [twitter/twemoji](https://github.com/twitter/twemoji)-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Other icons
 
