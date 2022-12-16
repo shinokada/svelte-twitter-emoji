@@ -1,6 +1,6 @@
 {
   "name": "svelte-twitter-emoji",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Twitter emoji icon components for Svelte",
   "author": {
     "name": "Shinichi Okada",
