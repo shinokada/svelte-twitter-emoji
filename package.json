@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-twitter-emoji/issues",
-  "homepage": "https://github.com/shinokada/svelte-twitter-emoji",
+  "homepage": "https://shinokada.github.io/svelte-twitter-emoji",
   "license": "CC-BY-4.0",
   "scripts": {
     "dev": "vite dev",
