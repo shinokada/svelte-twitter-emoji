@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Twitter-Emoji</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-twitter-emoji/">Svelte-Twitter-Emoji</a>
+<a href="https://svelte-twitter-emoji.codewithshin.com/">Svelte-Twitter-Emoji</a>
 </p>
 
 <p align="center">
