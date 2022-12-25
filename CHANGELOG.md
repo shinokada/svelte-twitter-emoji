@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.1.11...v0.1.12) (2022-12-25)
+
+
+### Bug Fixes
+
+* url updates ([45d50f9](https://github.com/shinokada/svelte-twitter-emoji/commit/45d50f91710b0f90ae23fdefa431e0ced25ed23c))
+
 ### [0.1.11](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.1.10...v0.1.11) (2022-12-16)
 
 ### Bug Fixes
