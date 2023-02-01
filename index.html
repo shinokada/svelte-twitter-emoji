@@ -112,6 +112,8 @@
         repo: 'shinokada/svelte-twitter-emoji',
         routerMode: 'history',
         crossOriginLinks: [
+          'https://github.com/sponsors/shinokada',
+          'https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps',
           'https://twitter.com/shinokada',
           'https://www.npmjs.com/package/svelte-twitter-emoji',
           'http://www.apache.org/licenses/',
@@ -134,7 +136,7 @@
           hideOtherSidebarContent: false // whether or not to hide other sidebar content
         }
       };
-      // PWA 
+      // PWA
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js', {
           scope: '/'
