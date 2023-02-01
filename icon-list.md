@@ -3693,3 +3693,7 @@ Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emo
 - A9
 - Ae
 - E50a
+
+## Back to Home
+
+[Back to Home](/)

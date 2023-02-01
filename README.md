@@ -1,10 +1,11 @@
-<h1 align="center">Svelte-Twitter-Emoji</h1>
+<h1 align="center">Svelte Twitter Emoji</h1>
 
 <p align="center">
 <a href="https://svelte-twitter-emoji.codewithshin.com/">Svelte-Twitter-Emoji</a>
 </p>
 
 <p align="center">
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield"></a>
 <a href="https://www.npmjs.com/package/svelte-twitter-emoji" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-twitter-emoji" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-twitter-emoji" alt="License"></a>
@@ -14,18 +15,7 @@
 3600+ Twitter emoji SVG color icon components for Svelte. svelte-twitter-emoji support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji1.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji2.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji3.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji4.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji5.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji6.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji7.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji8.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji9.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji10.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji11.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-twitter-emoji/main/static/images/twemoji12.webp" />
+<img width="650" src="/static/images/twitter-emoji-optimized-650-1050.png" />
 </p>
 
 ## Installation
@@ -40,7 +30,11 @@ All files has A before a number. For example `1F004` becomes `A1F004`.
 
 Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emoji-data/table.htm)
 
-[Icon list](https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md)
+[Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -151,3 +145,9 @@ Original SVG souce by [twitter/twemoji](https://github.com/twitter/twemoji)-[CC 
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
+## PWA: Fast & Offline
+
+This website can be downloaded and installed on your device for offline access as a Progressive Web App.
+
+To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
