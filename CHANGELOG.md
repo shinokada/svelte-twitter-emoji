@@ -4,12 +4,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.14](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.1.13...v0.1.14) (2023-02-01)
 
-
 ### Bug Fixes
 
-* badges target, height, and add links to crossOriginLinks ([5d78008](https://github.com/shinokada/svelte-twitter-emoji/commit/5d78008abc1783961c3544c36b2a1e1255e2526c))
-* index service-worker.js link ([5a9c8b2](https://github.com/shinokada/svelte-twitter-emoji/commit/5a9c8b2979259ea91f13802d767e908c1182bed6))
-* manifest link ([96da784](https://github.com/shinokada/svelte-twitter-emoji/commit/96da7841bcfbdd6578902a6dfc11f83e3632db19))
+- badges target, height, and add links to crossOriginLinks ([5d78008](https://github.com/shinokada/svelte-twitter-emoji/commit/5d78008abc1783961c3544c36b2a1e1255e2526c))
+- index service-worker.js link ([5a9c8b2](https://github.com/shinokada/svelte-twitter-emoji/commit/5a9c8b2979259ea91f13802d767e908c1182bed6))
+- manifest link ([96da784](https://github.com/shinokada/svelte-twitter-emoji/commit/96da7841bcfbdd6578902a6dfc11f83e3632db19))
 
 ### [0.1.13](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.1.12...v0.1.13) (2023-02-01)
 
