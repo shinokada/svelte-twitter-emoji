@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.2.1...v0.3.1) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([853972b](https://github.com/shinokada/svelte-twitter-emoji/commit/853972baf67168a97d639326e0b1beb91b24a67e))
+* new svelte packaging system ([53c6c63](https://github.com/shinokada/svelte-twitter-emoji/commit/53c6c63a33d3641c3285acc9dd3f1c1e0750c2f4))
+
+
+### Bug Fixes
+
+* format ([523320b](https://github.com/shinokada/svelte-twitter-emoji/commit/523320b5479cdbaeb8a6463a302fca7f7f664fcf))
+* update index.html ([a989296](https://github.com/shinokada/svelte-twitter-emoji/commit/a9892965a3e0d418500107350a24302c798449dc))
+
 ### [0.2.1](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.2.0...v0.2.1) (2023-02-03)
 
 ## [0.2.0](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.1.14...v0.2.0) (2023-02-03)
