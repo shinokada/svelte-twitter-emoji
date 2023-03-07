@@ -16,6 +16,8 @@
 
 3600+ Twitter emoji SVG color icon components for Svelte. svelte-twitter-emoji support major CSS frameworks using the `class` props.
 
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+
 <p align="center">
 <img width="650" src="/static/images/twitter-emoji-optimized-650-1050.png" />
 </p>
@@ -49,6 +51,42 @@ In a svelte file:
 
 <A1F1e61f1e8 />
 ```
+
+
+## Faster compiling
+
+If you only need to use a couple of icons from this library in your Svelte app, importing it directly. This can help optimize compilation speed. 
+By importing only what you need, you can reduce the amount of code that needs to be processed, which can improve overall performance.
+
+```html
+<script>
+  import A1F1e61f1e8 from 'svelte-twitter-emoji/A1F1e61f1e8.svelte';
+</script>
+
+<A1F1e61f1e8 />
+```
+
+If you are TypeScript user, install **typescript version 5.0.0 or above**.
+
+As of March 2023, the `typescript@beta` version is available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
+```
+
+
 
 ## Size
 
