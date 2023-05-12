@@ -1,6 +1,6 @@
 {
   "name": "svelte-twitter-emoji",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Twitter emoji icon components for Svelte",
   "author": {
     "name": "Shinichi Okada",
@@ -24,7 +24,7 @@
     "format": "prettier --plugin-search-dir . --write .",
     "write-package-json": "node ./scripts/package-json-writer.js",
     "add-exports": "node ./scripts/add-exports-to-package-json.js",
-    "package:publish": "standard-version && git add . && git commit -m 'version update' && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json && npm publish"
+    "package:publish": "standard-version && git add . && git commit -m 'version update' && git push && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json && npm publish"
   },
   "files": [
     "dist"
