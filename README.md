@@ -52,7 +52,6 @@ In a svelte file:
 <A1F1e61f1e8 />
 ```
 
-
 ## Faster compiling
 
 If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
@@ -84,8 +83,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
   }
 }
 ```
-
-
 
 ## Size
 
@@ -120,6 +117,28 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
 <A1F1e61f1e8 ariaLabel="Twitter emoji" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<Accessibility16 tabindex="-1" />
+```
+
+## Events
+
+All icons have the following events:
+
+```
+on:click
+on:mouseenter
+on:mouseleave
+on:mouseover
+on:mouseout
+on:blur
+on:focus
 ```
 
 ## Passing down other attributes

@@ -1,9 +1,3 @@
-# Icon names
-
-All files has A before a number. For example `1F004` becomes `A1F004`.
-
-Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emoji-data/table.htm)
-
 - A1F004.svelte
 - A1F0cf.svelte
 - A1F170.svelte
@@ -3693,7 +3687,4 @@ Find out icons from file name at [Emoji catalog](https://projects.iamcal.com/emo
 - A9.svelte
 - Ae.svelte
 - E50a.svelte
-
-## Back to Home
-
-[Back to Home](/)
+- index.js
