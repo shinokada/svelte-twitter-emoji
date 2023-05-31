@@ -1,1 +1,47 @@
-<script>export let size="36";export let ariaLabel="1f1ec 1f1ec" </script><svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 36 36"><path fill="#EEE" d="M32 5H4C1.791 5 0 6.791 0 9v18c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4V9c0-2.209-1.791-4-4-4z"/><path fill="#E8112D" d="M21 31h-6V21H0v-6h15V5h6v10h15v6H21z"/><path fill="#F9DD16" d="M27.5 17H19V9.5l1-1h-4l1 1V17H8.5l-1-1v4l1-1H17v7.5l-1 1h4l-1-1V19h8.5l1 1v-4z"/></svg>
+<script>
+  export let size = '36';
+  export let ariaLabel = '1f1ec 1f1ec';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 36 36"
+  ><path
+    fill="#EEE"
+    d="M32 5H4C1.791 5 0 6.791 0 9v18c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4V9c0-2.209-1.791-4-4-4z"
+  /><path fill="#E8112D" d="M21 31h-6V21H0v-6h15V5h6v10h15v6H21z" /><path
+    fill="#F9DD16"
+    d="M27.5 17H19V9.5l1-1h-4l1 1V17H8.5l-1-1v4l1-1H17v7.5l-1 1h4l-1-1V19h8.5l1 1v-4z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
+## Props
+@prop size = '36';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

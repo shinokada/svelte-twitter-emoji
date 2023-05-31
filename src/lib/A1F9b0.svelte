@@ -1,1 +1,44 @@
-<script>export let size="36";export let ariaLabel="1f9b0" </script><svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 36 36"><path fill="#FFDC5D" d="M0 21h30v15H0z"/><path fill="#E95F28" d="M4.5 1c-1.567 0-3.061.086-4.5.235v23.416c13.81 13.743 6.846-.189 6.846-.189 4.692 4.692 18.769 4.692 18.769 4.692L29.038 36h5.28c.424-2.252.682-5.332.682-9.192C35 15.077 23.269 1 4.5 1z"/></svg>
+<script>
+  export let size = '36';
+  export let ariaLabel = '1f9b0';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 36 36"
+  ><path fill="#FFDC5D" d="M0 21h30v15H0z" /><path
+    fill="#E95F28"
+    d="M4.5 1c-1.567 0-3.061.086-4.5.235v23.416c13.81 13.743 6.846-.189 6.846-.189 4.692 4.692 18.769 4.692 18.769 4.692L29.038 36h5.28c.424-2.252.682-5.332.682-9.192C35 15.077 23.269 1 4.5 1z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
+## Props
+@prop size = '36';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

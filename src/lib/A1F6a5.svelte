@@ -1,1 +1,49 @@
-<script>export let size="36";export let ariaLabel="1f6a5" </script><svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 36 36"><path fill="#31373D" d="M36 23c0 2.209-1.791 4-4 4H4c-2.209 0-4-1.791-4-4V13c0-2.209 1.791-4 4-4h28c2.209 0 4 1.791 4 4v10z"/><circle fill="#77B255" cx="7" cy="18" r="4"/><circle fill="#FFCC4D" cx="18" cy="18" r="4"/><circle fill="#DD2E44" cx="29" cy="18" r="4"/></svg>
+<script>
+  export let size = '36';
+  export let ariaLabel = '1f6a5';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 36 36"
+  ><path
+    fill="#31373D"
+    d="M36 23c0 2.209-1.791 4-4 4H4c-2.209 0-4-1.791-4-4V13c0-2.209 1.791-4 4-4h28c2.209 0 4 1.791 4 4v10z"
+  /><circle fill="#77B255" cx="7" cy="18" r="4" /><circle
+    fill="#FFCC4D"
+    cx="18"
+    cy="18"
+    r="4"
+  /><circle fill="#DD2E44" cx="29" cy="18" r="4" /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
+## Props
+@prop size = '36';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

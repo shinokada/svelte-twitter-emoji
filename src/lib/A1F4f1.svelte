@@ -1,1 +1,44 @@
-<script>export let size="36";export let ariaLabel="1f4f1" </script><svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 36 36"><path fill="#31373D" d="M11 36s-4 0-4-4V4s0-4 4-4h14s4 0 4 4v28s0 4-4 4H11z"/><path fill="#55ACEE" d="M9 5h18v26H9z"/></svg>
+<script>
+  export let size = '36';
+  export let ariaLabel = '1f4f1';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 36 36"
+  ><path fill="#31373D" d="M11 36s-4 0-4-4V4s0-4 4-4h14s4 0 4 4v28s0 4-4 4H11z" /><path
+    fill="#55ACEE"
+    d="M9 5h18v26H9z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
+## Props
+@prop size = '36';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

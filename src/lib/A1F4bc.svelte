@@ -1,1 +1,53 @@
-<script>export let size="36";export let ariaLabel="1f4bc" </script><svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 36 36"><path fill="#9A4E1C" d="M32 8h-6V4c0-2.209-1.791-4-4-4h-8c-2.209 0-4 1.791-4 4v4H4c-2.209 0-4 1.791-4 4v20c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4V12c0-2.209-1.791-4-4-4zM12 6c0-1.104.896-2 2-2h8c1.104 0 2 .896 2 2v2H12V6z"/><path fill="#662113" d="M36 20c0 2.209-1.791 4-4 4H4c-2.209 0-4-1.791-4-4v-8c0-2.209 1.791-4 4-4h28c2.209 0 4 1.791 4 4v8z"/><path fill="#9A4E1C" d="M36 18c0 2.209-1.791 4-4 4H4c-2.209 0-4-1.791-4-4v-6c0-2.209 1.791-4 4-4h28c2.209 0 4 1.791 4 4v6z"/><path fill="#CCD6DD" d="M22 18c0 1.104-.896 2-2 2h-4c-1.104 0-2-.896-2-2s.896-2 2-2h4c1.104 0 2 .896 2 2"/></svg>
+<script>
+  export let size = '36';
+  export let ariaLabel = '1f4bc';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 36 36"
+  ><path
+    fill="#9A4E1C"
+    d="M32 8h-6V4c0-2.209-1.791-4-4-4h-8c-2.209 0-4 1.791-4 4v4H4c-2.209 0-4 1.791-4 4v20c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4V12c0-2.209-1.791-4-4-4zM12 6c0-1.104.896-2 2-2h8c1.104 0 2 .896 2 2v2H12V6z"
+  /><path
+    fill="#662113"
+    d="M36 20c0 2.209-1.791 4-4 4H4c-2.209 0-4-1.791-4-4v-8c0-2.209 1.791-4 4-4h28c2.209 0 4 1.791 4 4v8z"
+  /><path
+    fill="#9A4E1C"
+    d="M36 18c0 2.209-1.791 4-4 4H4c-2.209 0-4-1.791-4-4v-6c0-2.209 1.791-4 4-4h28c2.209 0 4 1.791 4 4v6z"
+  /><path
+    fill="#CCD6DD"
+    d="M22 18c0 1.104-.896 2-2 2h-4c-1.104 0-2-.896-2-2s.896-2 2-2h4c1.104 0 2 .896 2 2"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
+## Props
+@prop size = '36';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

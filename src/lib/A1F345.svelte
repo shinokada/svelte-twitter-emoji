@@ -1,1 +1,47 @@
-<script>export let size="36";export let ariaLabel="1f345" </script><svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 36 36"><path fill="#DD2E44" d="M22.494 5.344c-.687 0-1.352.066-1.991.177-.819-.104-2.74-.231-3.591-.231-8.473 0-15.886 3.177-15.886 14.298 0 9.036 7.049 16.361 16.976 16.361s17.974-7.325 17.974-16.361C35.975 8.339 26.59 5.344 22.494 5.344z"/><path fill="#77B255" d="M8.439.091c1.637 1.636 2.77 2.266 3.274 4.91.298 1.564 2.266 1.51 2.266 1.51s-3.903 1.763-5.54 3.4c0 0 4.91-1.637 6.547-1.637 0 0 3.273 1.637 3.273 3.273 0 0 0-3.273-1.636-3.273 0 0 4.909 0 4.909 3.273 0 0 0-4.91-1.637-4.91 0 0 4.911-1.636 6.548 0 0 0-1.686-1.72-4.911-1.636 0 0 1.638-1.637 4.911-1.637 0 0-5.288-1.511-6.925 1.763 0 0-1.385-1.385 1.385-4.155 0 0-4.28.755-4.28 4.029 0 0-1.552-.04-2.644-1.259C11.838 1.35 8.439.091 8.439.091z"/></svg>
+<script>
+  export let size = '36';
+  export let ariaLabel = '1f345';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 36 36"
+  ><path
+    fill="#DD2E44"
+    d="M22.494 5.344c-.687 0-1.352.066-1.991.177-.819-.104-2.74-.231-3.591-.231-8.473 0-15.886 3.177-15.886 14.298 0 9.036 7.049 16.361 16.976 16.361s17.974-7.325 17.974-16.361C35.975 8.339 26.59 5.344 22.494 5.344z"
+  /><path
+    fill="#77B255"
+    d="M8.439.091c1.637 1.636 2.77 2.266 3.274 4.91.298 1.564 2.266 1.51 2.266 1.51s-3.903 1.763-5.54 3.4c0 0 4.91-1.637 6.547-1.637 0 0 3.273 1.637 3.273 3.273 0 0 0-3.273-1.636-3.273 0 0 4.909 0 4.909 3.273 0 0 0-4.91-1.637-4.91 0 0 4.911-1.636 6.548 0 0 0-1.686-1.72-4.911-1.636 0 0 1.638-1.637 4.911-1.637 0 0-5.288-1.511-6.925 1.763 0 0-1.385-1.385 1.385-4.155 0 0-4.28.755-4.28 4.029 0 0-1.552-.04-2.644-1.259C11.838 1.35 8.439.091 8.439.091z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
+## Props
+@prop size = '36';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->
