@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.7](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.6...v0.4.7) (2023-06-01)
+
+
+### Features
+
+* add prop role="img" ([d006404](https://github.com/shinokada/svelte-twitter-emoji/commit/d00640453b63bf65b59077f242674812a9b7b583))
+
 ### [0.4.6](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.5...v0.4.6) (2023-06-01)
 
 ### Features
