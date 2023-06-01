@@ -86,10 +86,9 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 ## Props
 
-| Name      | Default        |
-| --------- | -------------- |
-| size      | 36             |
-| ariaLabel | icon file name |
+- size = '36';
+- role = 'img';
+- ariaLabel = 'icon file name';
 
 ## IDE support
 

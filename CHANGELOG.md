@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.6](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.5...v0.4.6) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([6c56478](https://github.com/shinokada/svelte-twitter-emoji/commit/6c564783c1d5979731edd0abd0120645dd86b6cc))
+- add || ^4.0.0 to peerDependencies ([6c56478](https://github.com/shinokada/svelte-twitter-emoji/commit/6c564783c1d5979731edd0abd0120645dd86b6cc))
 
 ### [0.4.5](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.4...v0.4.5) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([8cb58c4](https://github.com/shinokada/svelte-twitter-emoji/commit/8cb58c4c1fa3c882ac83769191b406765bb10c6a))
+- add component docs ([8cb58c4](https://github.com/shinokada/svelte-twitter-emoji/commit/8cb58c4c1fa3c882ac83769191b406765bb10c6a))
 
 ### [0.4.4](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.3...v0.4.4) (2023-05-12)
 

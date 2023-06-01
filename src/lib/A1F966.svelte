@@ -1,5 +1,6 @@
 <script>
   export let size = '36';
+  export let role = 'img';
   export let ariaLabel = '1f966';
 </script>
 
@@ -7,8 +8,8 @@
   xmlns="http://www.w3.org/2000/svg"
   width={size}
   height={size}
-  class={$$props.class}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   on:click
   on:keydown
@@ -86,6 +87,7 @@
 [Go to Document](https://svelte-twitter-emoji.codewithshin.com/)
 ## Props
 @prop size = '36';
+@prop role = 'img';
 @prop ariaLabel = 'icon file name';
 ## Event
 - on:click
