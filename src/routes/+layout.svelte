@@ -14,7 +14,7 @@
   import { MetaTags } from 'svelte-meta-tags';
 
   $: activeUrl = $page.url.pathname;
-  const title = 'Svelte Simples';
+  const title = 'Svelte Twitter Emoji';
   let divClass = 'w-full ml-auto lg:block lg:w-auto order-1 lg:order-none';
   let ulClass =
     'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4 dark:lg:bg-transparent lg:bg-white lg:border-0';
@@ -22,29 +22,29 @@
 
 <MetaTags
   {title}
-  description="Simpleicon set for Svelte"
+  description="Twitter Emoji icon for Svelte"
   openGraph={{
     type: 'website',
-    url: 'https://svelte-simples.vercel.app/',
-    title: 'Svelte Simples',
-    description: 'Simpleicon set for Svelte',
+    url: 'https://svelte-twitter-emoji.vercel.app/',
+    title: 'Svelte Twitter Emoji',
+    description: 'Twitter Emoji icon for Svelte',
     images: [
       {
-        url: 'https://open-graph-vercel.vercel.app/api/svelte-simples',
+        url: 'https://open-graph-vercel.vercel.app/api/svelte-twitter-emoji',
         width: 1200,
         height: 630,
-        alt: 'Svelte Simples'
+        alt: 'Svelte Twitter Emoji'
       }
     ],
-    site_name: 'Svelte Simples'
+    site_name: 'Svelte Twitter Emoji'
   }}
   twitter={{
     handle: '@shinokada',
     cardType: 'summary_large_image',
-    title: 'Svelte Simples',
-    description: 'Simpleicon set for Svelte',
-    image: 'https://open-graph-vercel.vercel.app/api/svelte-simples',
-    imageAlt: 'Svelte Simples'
+    title: 'Svelte Twitter Emoji',
+    description: 'Twitter Emoji icon for Svelte',
+    image: 'https://open-graph-vercel.vercel.app/api/svelte-twitter-emoji',
+    imageAlt: 'Svelte Twitter Emoji'
   }}
 />
 
@@ -67,7 +67,7 @@
     >
       <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/'} href="/">Home</NavLi>
       <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/icons'} href="/icons">Icons</NavLi>
-      <NavLi class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-simples"
+      <NavLi class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-twitter-emoji"
         >GitHub</NavLi
       >
       <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
@@ -85,8 +85,8 @@
 <Footer footerType="logo" class="dark:bg-indigo-950">
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
-      href="https://svelte-simples.vercel.app/"
-      name="Svelte Simples"
+      href="https://svelte-twitter-emoji.vercel.app/"
+      name="Svelte Twitter Emoji"
       classSpan="text-primary-700 dark:text-primary-500"
     />
     <FooterLinkGroup
@@ -94,7 +94,7 @@
     >
       <FooterLink class="lg:px-2 lg:mb-0">Home</FooterLink>
       <FooterLink class="lg:px-2 lg:mb-0" href="/icons">Icons</FooterLink>
-      <FooterLink class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-simples"
+      <FooterLink class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-twitter-emoji"
         >GitHub</FooterLink
       >
       <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
