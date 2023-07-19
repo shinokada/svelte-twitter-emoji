@@ -11,9 +11,6 @@ devDependencies:
   '@playwright/test':
     specifier: ^1.36.1
     version: 1.36.1
-  '@sveltejs/adapter-auto':
-    specifier: ^2.1.0
-    version: 2.1.0(@sveltejs/kit@1.22.3)
   '@sveltejs/adapter-vercel':
     specifier: ^3.0.2
     version: 3.0.2(@sveltejs/kit@1.22.3)
@@ -476,15 +473,6 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
-    dev: true
-
-  /@sveltejs/adapter-auto@2.1.0(@sveltejs/kit@1.22.3):
-    resolution: {integrity: sha512-o2pZCfATFtA/Gw/BB0Xm7k4EYaekXxaPGER3xGSY3FvzFJGTlJlZjBseaXwYSM94lZ0HniOjTokN3cWaLX6fow==}
-    peerDependencies:
-      '@sveltejs/kit': ^1.0.0
-    dependencies:
-      '@sveltejs/kit': 1.22.3(svelte@4.0.5)(vite@4.4.4)
-      import-meta-resolve: 3.0.0
     dev: true
 
   /@sveltejs/adapter-vercel@3.0.2(@sveltejs/kit@1.22.3):
@@ -1613,10 +1601,6 @@ packages:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
-    dev: true
-
-  /import-meta-resolve@3.0.0:
-    resolution: {integrity: sha512-4IwhLhNNA8yy445rPjD/lWh++7hMDOml2eHtd58eG7h+qK3EryMuuRbsHGPikCoAgIkkDnckKfWSk2iDla/ejg==}
     dev: true
 
   /imurmurhash@0.1.4:
