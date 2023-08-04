@@ -29,7 +29,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 ## Installation
 
 ```sh
-npm i -D svelte-twitter-emoji
+pnpm i -D svelte-twitter-emoji
 ```
 
 ## Usages
@@ -38,47 +38,19 @@ In a svelte file:
 
 ```html
 <script>
-  import { A1F1e61f1e8 } from 'svelte-twitter-emoji';
+  import { Icon } from 'svelte-twitter-emoji';
 </script>
 
-<A1F1e61f1e8 />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import A1F1e61f1e8 from 'svelte-twitter-emoji/A1F1e61f1e8.svelte';
-</script>
-
-<A1F1e61f1e8 />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="1f43c" />
 ```
 
 ## Props
 
-- size = '36';
-- role = 'img';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = replace_size;
+- @prop height = replace_size;
+- @prop role = 'img';
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -86,53 +58,41 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<A1F1e61f1e8 size="40" />
-<A1F1e61f1e8 size="50" />
-<A1F1e61f1e8 size="60" />
+<Icon name="1f43c" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<A1F1e61f1e8 class="shrink-0 h-20 w-20" />
+<Icon name="1f43c" class="shrink-0 h-20 w-20" />
 ```
 
-## CSS framworks suport
+## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<Adjust class="h-24 w-24 mr-4" />
+<Icon name="1f43c" class="inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Adjust class="position-absolute top-0 px-1" />
-```
-
-## Dark mode
-
-If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the class prop.
-
-Let’s use dark for the dark mode class as an example.
-
-```html
-<Adjust class="text-blue-700 dark:text-red-500" />
+<Icon name="1f43c" class="position-absolute top-0 px-1" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `A1F1e61f1e8` has `aria-label="a1F1e6 1f1e8"`.
+All icons have aria-label. For example `1f43c` has `aria-label="1f43c"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<A1F1e61f1e8 ariaLabel="Twitter emoji" />
+<Icon name="1f43c" ariaLabel="panda icon" />
 ```
 
 ## Unfocusable icon
@@ -140,7 +100,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Accessibility16 tabindex="-1" />
+<Icon name="1f43c"  tabindex="-1" />
 ```
 
 ## Events
@@ -162,57 +122,49 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<A1F1e61f1e8 tabindex="0" />
+<Icon name="1f43c"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { A1F1e61f1e8 } from 'svelte-twitter-emoji';
-</script>
-
-<svelte:component this="{A1F1e61f1e8}" />
+<svelte:component this="{Icon}" name="1f43c" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { A1F1e61f1e8 } from 'svelte-twitter-emoji';
+  import {Icon} from 'svelte-twitter-emoji';
   import { onMount } from 'svelte';
   const props = {
+    name: '1f43c',
     size: '50',
-    color: '#ff0000'
   };
   onMount(() => {
-    const icon = new A1F1e61f1e8({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-twitter-emoji`.
+Use `import {Icon, icons} from 'svelte-twitter-emoji';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-twitter-emoji';
+  import {Icon, icons} from 'svelte-twitter-emoji';
 </script>
 
-<Icon.A1F1e61f1e8 />
-<Icon.A1F1f21f1f9 />
-
-<h1>Size</h1>
-<Icon.A1F1e61f1e8 size="30" />
-<Icon.A1F1f21f1f9 size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.A1F1e61f1e8 class="px-2" />
-<Icon.A1F1f21f1f9 class="mr-2" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-
