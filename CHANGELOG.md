@@ -2,29 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.5.2](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.5.1...v0.5.2) (2023-08-04)
+### [0.6.1](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.5.2...v0.6.1) (2023-09-02)
 
+### [0.5.2](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.5.1...v0.5.2) (2023-08-04)
 
 ### Features
 
-* use two files ([f978b9d](https://github.com/shinokada/svelte-twitter-emoji/commit/f978b9d8d0742ca336af200df9cb4f416bdc28aa))
+- use two files ([f978b9d](https://github.com/shinokada/svelte-twitter-emoji/commit/f978b9d8d0742ca336af200df9cb4f416bdc28aa))
 
 ### [0.5.1](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.9...v0.5.1) (2023-08-04)
 
 ### [0.4.9](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.8...v0.4.9) (2023-07-20)
 
-
 ### Features
 
-* layout update ([565aa69](https://github.com/shinokada/svelte-twitter-emoji/commit/565aa69a4b03aa24e088dd034180f7d15d9e3b8b))
-
+- layout update ([565aa69](https://github.com/shinokada/svelte-twitter-emoji/commit/565aa69a4b03aa24e088dd034180f7d15d9e3b8b))
 
 ### Bug Fixes
 
-* homepage update ([7ea6728](https://github.com/shinokada/svelte-twitter-emoji/commit/7ea6728a0f1b57e97069557206c02504bbb0c76f))
-* image sizes ([2d78b31](https://github.com/shinokada/svelte-twitter-emoji/commit/2d78b31cacd7b62b7b6c6ac82aaa927b4a26ac38))
-* test ([59dcc68](https://github.com/shinokada/svelte-twitter-emoji/commit/59dcc681ca847dd360f842793073deb3c6f7d3d1))
-* typo ([172eba3](https://github.com/shinokada/svelte-twitter-emoji/commit/172eba33f09def5ba106b3d988cc8ea41c395b29))
+- homepage update ([7ea6728](https://github.com/shinokada/svelte-twitter-emoji/commit/7ea6728a0f1b57e97069557206c02504bbb0c76f))
+- image sizes ([2d78b31](https://github.com/shinokada/svelte-twitter-emoji/commit/2d78b31cacd7b62b7b6c6ac82aaa927b4a26ac38))
+- test ([59dcc68](https://github.com/shinokada/svelte-twitter-emoji/commit/59dcc681ca847dd360f842793073deb3c6f7d3d1))
+- typo ([172eba3](https://github.com/shinokada/svelte-twitter-emoji/commit/172eba33f09def5ba106b3d988cc8ea41c395b29))
 
 ### [0.4.8](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.4.7...v0.4.8) (2023-06-15)
 
