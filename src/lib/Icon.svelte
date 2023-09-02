@@ -1,53 +1,19 @@
-<script>
-  import icons from './icons.js'
-
-  export let name;
-  export let width = "36";
-  export let height = "36";
-  export let role = 'img';
-  export let ariaLabel = name;
-  
-  $: displayIcon = icons[name]
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  export let icon: ComponentType;
+  export let size: number = 30;
+  export let role: string = 'img';
+  export let ariaLabel = 'Icon';
 </script>
-<svg
-xmlns="http://www.w3.org/2000/svg"
-{width}
-{height}
-{role}
-aria-label={ariaLabel}
-{...$$restProps}
-class={$$props.class}
-on:click
-on:keydown
-on:keyup
-on:focus
-on:blur
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-viewBox="0 0 {displayIcon.box} {displayIcon.box}"
->
-  {@html displayIcon.svg}
-</svg>
+
+<svelte:component this={icon} {...$$restProps} {role} {size} class={$$props.class} {ariaLabel} />
 
 <!--
 @component
-[Go to Document](https://svelte-twitter-emoji.vercel.app/)
+[Go to docs](https://svelte-twitter-emoji.vercel.app/)
 ## Props
-@prop name;
-@prop width = "36";
-@prop height = "36";
-@prop role = 'img';
-@prop ariaLabel='icon name'
-## Event
-- on:click
-- on:keydown
-- on:keyup
-- on:focus
-- on:blur
-- on:mouseenter
-- on:mouseleave
-- on:mouseover
-- on:mouseout
+@prop export let icon: ComponentType;
+@prop export let size: number = 30;
+@prop export let role: string = 'img';
+@prop export let ariaLabel = 'Icon';
 -->
