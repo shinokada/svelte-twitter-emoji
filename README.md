@@ -1,3 +1,5 @@
+
+
 # Svelte Twitter Emoji
 
 <div class="flex gap-2 my-8">
@@ -29,7 +31,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 ## Installation
 
 ```sh
-npm i -D svelte-twitter-emoji
+pnpm i -D svelte-twitter-emoji
 ```
 
 ## Usages
@@ -58,9 +60,9 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ## Props
 
-- size = '36';
-- role = 'img';
-- ariaLabel = 'icon file name';
+- size = ctx.size || '24';
+- role = ctx.role || 'img';
+- ariaLabel = 'file name';
 
 ## IDE support
 
@@ -82,7 +84,48 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 <A1F1e61f1e8 class="shrink-0 h-20 w-20" />
 ```
 
-## Creating a Default Global Icon Setting in Svelte
+
+## Setting Global Icon using setContext
+
+You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components. Here's how you can do it:
+
+```html
+<script>
+  import { setContext } from 'svelte';
+
+  // Define your global icon settings
+  const iconCtx = {
+    strokeWidth: '1.5',
+    size: '100', // Icon size in pixels
+    color: '#ff4488', // Icon color in hexadecimal or CSS color name
+    role: 'svg icon image' // Accessible role for the icon
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+```
+
+The `size`, `ariaLabel` and `role` properties are optional, allowing you to fine-tune the appearance and accessibility of your icons as needed.
+
+If you set `size`, icons can be customized with different colors. For example:
+
+```html
+<script>
+  import { setContext } from 'svelte';
+  import { A26C4 } from 'svelte-twitter-emoji';
+  const iconCtx = {
+    size: '50'
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+
+<A26C4 ariaLabel="christmas image" />
+```
+
+Remember that you can set only one or two of these properties, allowing you to tailor icon settings to your specific design and accessibility requirements.
+
+Feel free to mix and match these properties as needed to create visually appealing and accessible icons in your Svelte application.
+
+## Creating a Default Icon Setting
 
 You can create a config file, `/src/lib/icon.config.json`.
 
