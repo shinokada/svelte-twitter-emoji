@@ -1,6 +1,8 @@
 <script>
-  export let size = '36';
-  export let role = 'img';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '24';
+  export let role = ctx.role || 'img';
   export let ariaLabel = '1f469 1f3fb 200d 2764 fe0f 200d 1f468 1f3ff';
 </script>
 
@@ -61,7 +63,7 @@
 @component
 [Go to docs](https://svelte-twitter-emoji.vercel.app/)
 ## Props
-@prop export let size = '36';
-@prop export let role = 'img';
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
 @prop export let ariaLabel = '1f469 1f3fb 200d 2764 fe0f 200d 1f468 1f3ff';
 -->

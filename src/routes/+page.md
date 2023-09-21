@@ -33,7 +33,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 ## Installation
 
 ```sh
-npm i -D svelte-twitter-emoji
+pnpm i -D svelte-twitter-emoji
 ```
 
 ## Usages
@@ -62,9 +62,9 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ## Props
 
-- size = '36';
-- role = 'img';
-- ariaLabel = 'icon file name';
+- size = ctx.size || '24';
+- role = ctx.role || 'img';
+- ariaLabel = 'file name';
 
 ## IDE support
 
