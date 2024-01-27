@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.3](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.6.2...v0.6.3) (2023-09-21)
 
-
 ### Features
 
-* add context ([fb03269](https://github.com/shinokada/svelte-twitter-emoji/commit/fb03269ce689312b7fe57931cf6345154329e143))
-* add sidebar menu ([e269293](https://github.com/shinokada/svelte-twitter-emoji/commit/e2692936f051d4eecbc7cd1914f1a026bcda6bd7))
+- add context ([fb03269](https://github.com/shinokada/svelte-twitter-emoji/commit/fb03269ce689312b7fe57931cf6345154329e143))
+- add sidebar menu ([e269293](https://github.com/shinokada/svelte-twitter-emoji/commit/e2692936f051d4eecbc7cd1914f1a026bcda6bd7))
 
 ### [0.6.2](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.6.1...v0.6.2) (2023-09-02)
 
