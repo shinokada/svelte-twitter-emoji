@@ -14847,6 +14847,7 @@
     "./Icon.svelte": {
       "types": "./dist/Icon.svelte.d.ts",
       "svelte": "./dist/Icon.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   }
 }

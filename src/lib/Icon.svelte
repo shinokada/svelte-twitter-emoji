@@ -10,7 +10,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-twitter-emoji.vercel.app/)
+[Go to docs](https://svelte-twitter-emoji.codewithshin.com/)
 ## Props
 @prop export let icon: ComponentType;
 @prop export let size: number = 30;
