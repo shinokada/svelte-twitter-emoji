@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-twitter-emoji)
 
-## Original source
-
-[twitter/twemoji GitHub Repo](https://github.com/twitter/twemoji)
-
-## License
-
-[Svelte-Twitter-Emoji License](https://github.com/shinokada/svelte-twitter-emoji/blob/main/LICENSE)
-
-[twitter/twemoji LICENSE](https://github.com/twitter/twemoji/blob/master/LICENSE)
-
 ## Installation
 
 ```sh
@@ -327,6 +317,16 @@ Use `import * as Icon from 'svelte-twitter-emoji`.
 <Icon.A1F1f21f1f9 class="mr-2" />
 ```
 
+## Original source
+
+[twitter/twemoji GitHub Repo](https://github.com/twitter/twemoji)
+
+## License
+
+[Svelte-Twitter-Emoji License](https://github.com/shinokada/svelte-twitter-emoji/blob/main/LICENSE)
+
+[twitter/twemoji LICENSE](https://github.com/twitter/twemoji/blob/master/LICENSE)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
