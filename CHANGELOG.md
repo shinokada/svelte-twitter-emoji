@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/shinokada/svelte-twitter-emoji/compare/v1.0.1...v1.0.2) (2024-03-01)
+
+
+### Bug Fixes
+
+* layout update add class to NavHamburger ([2727749](https://github.com/shinokada/svelte-twitter-emoji/commit/27277490ca884aafabbd18f5c526c6701dfba108))
+
 ### [1.0.1](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.6.3...v1.0.1) (2024-01-27)
 
 ### [0.6.3](https://github.com/shinokada/svelte-twitter-emoji/compare/v0.6.2...v0.6.3) (2023-09-21)
